@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us – How To Get Rid Of Acne</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./index.css" /></head>
+<body>
+    <div class="container">
+		<nav id="styleswitch">
+			<label for="styleSwitcher">Choose a style: </label>
+			<select id="styleSwitcher">
+				<option value="normal">Normal</option>
+				<option value="large">Larger text</option>
+			</select>
+		</nav>
+    <header>
+        <nav id="skip">
+            <h2>Skip to main content</h2>
+            <a href="#content">Skip to main content</a>
+        </nav>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="morningroutine.html">Morning routine</a></li>
+                <li><a href="nightroutine.html">Night routine</a></li>
+                <li><a href="form.html" class="active">Contact us</a></li>
+            </ul>
+        </nav>
+        <aside>
+            <h1>How to Get Rid of Acne</h1>
+            <p><em><b>Comprehensive guide on skincare, including basic routines and tips to help you achieve your skincare goals.</b></em> </p>
+            </aside>
+    </header>
+    <main id="content">
+        <section class="form-container">
+            <h2>Send your questions</h2>
+            <p>If you want to know whether a certain skincare home remedy is fact or superstition and get more information about it please fill the form below.</p>
+            
+            <form action="mailto:temugen.bb@gmail.com" method="post" enctype="text/plain" class="contact-form">
+                <label for="home-remedy">Skincare home remedy</label> <br> <br>
+                <input type="text" id="home-remedy" name="home-remedy" size="100" maxlength="100" placeholder="Summarize it shortly (put toothpaste on acne, etc)" required>
+                
+                <div class="radio-group">
+                    <label for="done-yes">Whether you have done it before</label> <br> <br>
+                    <input type="radio" id="done-yes" name="experience" value="Yes"> 
+                    <label for="done-yes">Yes</label> <br>
+                    <input type="radio" id="done-no" name="experience" value="No">
+                    <label for="done-no">No</label> <br> <br>
+                </div>
+                <div class="radio-group">
+                    <label for="hear-online">How did you hear about this remedy?</label> <br>
+                    <input type="radio" id="hear-online" name="source" value="Online">
+                    <label for="hear-online">Online</label> <br>
+                    <input type="radio" id="hear-word-of-mouth" name="source" value="Word of mouth">
+                    <label for="hear-word-of-mouth">Word of mouth</label> <br>
+                    <input type="radio" id="hear-friends" name="source" value="Friends">
+                    <label for="hear-friends">Friends</label> <br>
+                    <input type="radio" id="hear-other" name="source" value="Other">
+                    <label for="hear-other">Other</label>
+                </div>
+                <br>
+                <label for="link-or-site">Link of video or site of it (if you have any)</label> <br> <br>
+                <input type="text" id="link-or-site" size="80" maxlength="80"  name="link-or-site" placeholder="http://">
+
+                <label for="name">Name</label> <br> <br>
+                <input type="text" id="name" size="50" maxlength="50" name="name" required>
+
+                <label for="email">E-mail address</label> <br><br>
+                <input type="email" id="email" size="50" maxlength="50" name="email" required>
+
+                <input type="checkbox" id="newsletter" name="newsletter" value="Subscribe">
+                <label for="newsletter">Subscribe to newsletter</label> <br> <br>
+
+                <div class="buttons">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Author: Temugen Batbayar</p>
+        <p>Date reviewed: 2024.03.13</p>
+        <p><em>Note: All information is for educational purposes only. For specific medical advice, diagnoses, and treatment, consult your doctor.</em></p>
+    </footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<script src="styleswitch.js"></script>
+</body>
+</html>
